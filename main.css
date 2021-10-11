@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@100&family=Rubik:ital,wght@1,500&display=swap");
+
+body {
+  background-color: #f7ede2;
+  overflow-x: hidden;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h4 {
+  font-family: Rubik, sans-serif;
+}
+
+/* nav bar */
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5em;
+}
+.navright li:hover,
+.navleft li:hover {
+  color: #d95525;
+  text-shadow: rgb(139, 118, 120) 1px 1px 3px;
+}
+
+.navleft,
+.navright {
+  font-family: rubik, sans-serif;
+  color: #432818;
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navright {
+  font-size: 18px;
+  display: flex;
+}
+
+.navleft li {
+  margin-right: 2em;
+}
+.navright li {
+  margin-right: 1em;
+}
+/* big text */
+
+.bigtext {
+  position: absolute;
+  bottom: 3em;
+  right: 10em;
+}
+
+.bigtext h1 {
+  font-size: 10em;
+  color: #fd7636;
+  text-shadow: rgb(44, 37, 38) 1px 1px 3px;
+}
+
+.bigtext h2 {
+  margin-top: 3em;
+  font-size: 3em;
+  color: #ede0ed;
+}
+
+/* large image */
+
+.egg {
+  margin-top: 1em;
+  width: 100%;
+}
+
+/* attention grabber */
+
+.attention {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: #432818;
+}
+
+/* content */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #432818;
+}
+
+.content p {
+  font-family: "Poppins", sans-serif;
+  margin: 1em;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 30%;
+  padding: 1em 0.5em 1em 0.5em;
+  background-color: #d4e09b;
+  margin-bottom: 2em;
+}
+
+.box4 {
+  width: 80%;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background-color: #f5cac3;
+  width: 100%;
+  position: absolute;
+  margin-top: 2em;
+  height: 6em;
+  font-family: Roboto, sans-serif;
+}
+
+.fall {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fleft ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.fright ul {
+  display: flex;
+  flex-direction: row;
+}
